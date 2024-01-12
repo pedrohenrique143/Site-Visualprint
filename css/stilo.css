@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.logo img{
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    cursor: pointer;
+   
+}
+
+
+.btns button{
+width: 700px;
+padding: 10px 10px;
+
+}
+
+.btns  .rosa{
+    background-color: #E5097F;
+    border: none;
+    outline: none;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.btns  .amarelo{
+    background-color: #FFED00;
+    border: none;
+    outline: none;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.btns  .azul{
+    background-color: #00A0E3;
+    border: none;
+    outline: none;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.btns  .preto{
+    background-color: black;
+    border: none;
+    outline: none;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+
+.btns button{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    transition: 0.5s
+}
+
+.btns button:hover{
+    transform: translateY(-8px);
+}
+
+.btns   a{
+    text-decoration: none;
+}
+
+.quemsomos P{
+    padding: 50PX;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.quemsomos h1{
+    text-align: center;
+    font-weight: 700;
+}
+
+.nossostrabalhos img{
+    width: 200px;
+}
+
+
+@media (max-width: 701px){
+    .btns button{
+        width: 500px;
+        display: flex;
+        justify-content: baseline;
+        margin: auto;
+    }
+
+    .logo img{
+        width: 300px;
+    }
+}
+
+
+@media (max-width: 513px){
+    .btns button{
+        width: 300px;
+        display: flex;
+        justify-content: baseline;
+        margin: auto;
+    }
+
+    .logo img{
+        width: 200px;
+    }
+}
+
+
+@media (max-width: 297px){
+    .btns button{
+        width: 200px;
+        display: flex;
+        justify-content: baseline;
+        margin: auto;
+    }
+
+    .logo img{
+        width: 150px;
+    }
+
+    
+}
